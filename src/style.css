@@ -40,7 +40,7 @@ html {
   max-width: 480px;
   display: grid;
 
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 /* section class="hero" */
@@ -285,4 +285,57 @@ html {
   font-size: 12px;
   text-align: left;
   margin-bottom: 10px;
+}
+
+/* section class="form__inner__container"> */
+.form__inner__container {
+  max-width: 400px;
+  height: 265px;
+
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.form__inner {
+  width: 380px;
+  height: 247px;
+
+
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  margin: 10px 6px 8px 8px;
+}
+
+.input__name {
+
+  width: 233px;
+  height: 57px;
+
+
+  background: rgba(217, 217, 217, 0.71);
+  border-radius: 8px;
+
+  background: url(./img/form_inner/user_name.svg) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+}
+
+.input__phone__number {
+  width: 233px;
+  height: 57px;
+
+
+  background: rgba(217, 217, 217, 0.71);
+  border-radius: 8px;
+
+  background: url(./img/form_inner/phone.svg) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+
 }
