@@ -60,10 +60,9 @@ ul {
 
 /* section class="hero" */
 .hero {
-  background-image: url("./img/main/background.png");
+  background-image: url(/src/img/main/backgroud_mobile.png);
   background-size: cover;
-  background-position: center;
-  max-width: 600px;
+  background-position: right;
 
   margin: 0;
 
@@ -99,6 +98,10 @@ ul {
   font-size: 17px;
   line-height: 23px;
   /* Line height: 1.4; */
+}
+
+.nav__list {
+  display: none;
 }
 
 .contact {
@@ -504,10 +507,14 @@ input[type=phone] {
 
 .lang {
   color: var(--text-color-main);
-  font-weight: 600;
+
   font-size: 14px;
   line-height: 16px;
 
+}
+
+.lang>span {
+  font-weight: 600;
 }
 
 .time__work {

@@ -1,0 +1,179 @@
+@media(min-width: 1024px) {
+  .container {
+    min-width: 1024px;
+  }
+
+  /* section class="hero" */
+  .hero {
+    background-image: url("/src/img/main/background.png");
+
+
+  }
+
+
+
+
+
+  /*Footer*/
+  .footer {
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+
+  }
+
+  .footer__conteiner {
+    display: flex;
+
+    justify-content: space-between;
+    min-width: 1150px;
+    height: 400px;
+
+    margin: 0 auto;
+  }
+
+  /*left part*/
+
+  .footer__logo {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 113px;
+    align-items: center;
+  }
+
+  .footer__logo>img {
+    padding-right: 5px;
+    width: 71px;
+    height: 79px;
+  }
+
+  .footer__logo__text {
+    font-size: 39px;
+  }
+
+  .footer__logo__text>span {
+    font-size: 27px;
+
+  }
+
+  /* .footer__info__row {
+    display: flex;
+  } */
+
+  .footer__nav__list {
+    margin-top: 30px;
+    margin-left: 116px;
+
+    font-size: 20px;
+
+  }
+
+  .footer__nav__list>li {
+    margin-bottom: 20px;
+
+  }
+
+  .footer__nav__list>li:last-child {
+    margin-top: 27px;
+
+  }
+
+  .lang {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .time__work {
+    font-size: 20px;
+    margin: 67px 0 0 160px;
+    ;
+  }
+
+  .time__work>p>span {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 7px;
+  }
+
+  /*right part*/
+  .footer__contacts {
+    margin-top: 60px;
+    margin-left: 378px;
+  }
+
+  address>p {
+    margin-bottom: 20px;
+    font-size: 34px;
+
+  }
+
+  address>span {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+
+  .footer__contacts__item {
+
+
+    font-size: 17px;
+    line-height: 1.35;
+    margin-bottom: 13px;
+  }
+
+  /* .footer__contacts__item:first-child {
+    margin-bottom: 25px;
+  } */
+
+  .footer__contacts__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__contacts__item>a>img {
+    margin-right: 15px;
+  }
+
+  .footer__contacts__item:last-child>a>img {
+    margin-right: 11px;
+  }
+
+  .footer__contacts__item>a {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .social>a>img {
+    padding-right: 15px;
+  }
+
+  .copyright {
+    margin: 12px 0 0 100px;
+
+
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
