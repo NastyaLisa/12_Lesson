@@ -2,6 +2,11 @@
 font-family: 'Roboto Flex',
 sans-serif; */
 
+/* font-family: 'Roboto',
+sans-serif;
+font-family: 'Roboto Flex',
+sans-serif; */
+
 
 :root {
   --color-accent: #46b1de;
@@ -302,9 +307,7 @@ html {
 .form__inner {
   width: 380px;
   height: 247px;
-
-
-  background: #FFFFFF;
+  background: var(--background-color);
   border: 1px solid #D9D9D9;
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
@@ -314,28 +317,99 @@ html {
   margin: 10px 6px 8px 8px;
 }
 
-.input__name {
+.form__inner__title {
 
-  width: 233px;
-  height: 57px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  /* identical to box height, or 42px */
 
-
-  background: rgba(217, 217, 217, 0.71);
-  border-radius: 8px;
-
-  background: url(./img/form_inner/user_name.svg) no-repeat scroll 7px 7px;
-  padding-left: 30px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.input__phone__number {
-  width: 233px;
-  height: 57px;
+.form__inner__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
 
+.form {
+  display: flex;
+}
 
-  background: rgba(217, 217, 217, 0.71);
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  background-color: rgba(217, 217, 217, 0.71);
+  color: rgba(27, 29, 31, 0.51);
+  background-image: url(./img/form_inner/user_name.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+
+  width: 150px;
+  height: 40px;
   border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
 
-  background: url(./img/form_inner/phone.svg) no-repeat scroll 7px 7px;
-  padding-left: 30px;
+}
+
+
+input[type=phone] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  background-color: rgba(217, 217, 217, 0.71);
+  color: rgba(27, 29, 31, 0.51);
+  background-image: url(./img/form_inner/phone.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.button__form__inner {
+  background: var(--color-accent);
+  border-radius: 8px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+
+  text-align: center;
+
+  color: var(--background-color);
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  align-items: center;
+}
+
+.clients__img {
+  width: 280px;
+  height: 128px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  margin-bottom: 15px;
 
 }

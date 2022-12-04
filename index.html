@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&family=Roboto:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
 </head>
 
@@ -193,17 +193,25 @@
           Fill out the form and we will contact you to make an appointment
         </p>
         <form action="" method="post">
-          <label for="name"></label>
-          <br>
-          <input class="input__name" type="text" name="name" id="name" maxlength="100" placeholder="Your name"> <br><br>
-          <label for="pass"></label>
-          <br>
-          <input class="input__phone__number" type="phone" name="phone_number" id="phone_number"
-            placeholder="Phone number">
-          <br><br>
-          <button class="button button__accent" type="submit" name="Sign_in">Sign in</button>
+          <div class="form">
+            <label for="name"></label>
+            <input class="input__name" type="text" name="name" id="name" maxlength="100" placeholder="Your name">
+            <br><br>
+
+
+            <label for="phone_number"></label>
+            <br>
+            <input class="input__phone__number" type="phone" name="phone_number" id="phone_number"
+              placeholder="Phone number">
+          </div>
+          <button class="button__form__inner" type="submit" name="Sign_up">Sign up</button>
         </form>
       </div>
+    </section>
+    <section class="clients">
+      <img class="clients__img" src="./src/img/clients/lady.webp" alt="">
+      <img class="clients__img" src="./src/img/clients/child.webp" alt="">
+      <img class="clients__img" src="./src/img/clients/man.webp" alt="">
     </section>
   </div>
 </body>
