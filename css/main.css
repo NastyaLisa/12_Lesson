@@ -17,9 +17,8 @@ sans-serif; */
 }
 
 @font-face {
-  font-family: "SofiaSans";
-  src: url("./fonts/SofiaSans-Regular.woff") format(" woff"),
-    url("./fonts/SofiaSans-Regular.woff2") format("woff2");
+  font-family: "SofiaSans-Regular";
+  src: url(/src/fonts/SofiaSans-Regular.woff2) format(" woff2");
   font-weight: regular;
   font-style: notmal;
 }
@@ -31,10 +30,7 @@ html {
 
 }
 
-.link {
-  text-decoration: none;
-  color: inherit;
-}
+
 
 * {
   box-sizing: border-box;
@@ -52,9 +48,9 @@ ul {
 }
 
 .container {
-  max-width: 480px;
+  /* max-width: 480px; */
   display: grid;
-
+  margin: 0 auto;
   /* background-color: blueviolet; */
 }
 
@@ -62,9 +58,9 @@ ul {
 .hero {
   background-image: url(/src/img/main/backgroud_mobile.png);
   background-size: cover;
-  background-position: right;
+  background-position: center;
 
-  margin: 0;
+
 
 }
 
@@ -72,13 +68,13 @@ ul {
 .header {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 10px;
+  margin: 30px 10px 0;
 }
 
 .logo {
   display: flex;
-  margin-top: 30px;
-  width: 183px;
+  /* margin-top: 30px; */
+  /* width: 183px; */
 }
 
 .logo__text,
@@ -88,32 +84,40 @@ ul {
 }
 
 .logo__img {
+  width: 33.39px;
+  height: 34.67px;
   padding-right: 5px;
   align-self: flex-start;
 }
 
 .logo__text {
-  font-family: SofiaSans;
+  font-family: "SofiaSans-Regular";
   font-style: regular;
+
   font-size: 17px;
   line-height: 23px;
   /* Line height: 1.4; */
 }
 
+
 .nav__list {
   display: none;
 }
 
-.contact {
+/* .contact {
   margin-top: 34px;
   margin-left: 10px;
-}
+} */
 
 .contact__number {
   font-size: 12px;
   line-height: 14px;
   color: var(--color-main);
 
+}
+
+.header__lang {
+  display: none;
 }
 
 /*about*/
@@ -141,6 +145,7 @@ ul {
 .buttons {
   display: flex;
   justify-content: center;
+
 }
 
 .button {
@@ -218,16 +223,12 @@ ul {
 
 .benefit {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  /* column-gap: 80px; */
-
+  grid-template-columns: repeat(2, auto);
   width: 240px;
   height: 80px;
-  border: 1px solid black;
-  border-radius: 10px;
   background-color: var(--background-color);
   align-items: center;
-  /* background: #FFFFFF; */
+
   border: 1px solid #D8E1E1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -238,11 +239,12 @@ ul {
   /* padding: 0 15px 0 15px; */
   color: var(--color-accent);
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .benefit__text {
   font-size: 14px;
+  line-height: 16px;
 }
 
 /*features*/
@@ -256,7 +258,7 @@ ul {
 
 .features__title {
   margin: 0;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   white-space: pre-line;
 }
@@ -271,18 +273,20 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 190px);
   row-gap: 15px;
-  background-color: var(--color-accent);
+  background-color: #A1C7D4;
+  border-radius: 12px;
+
   padding: 15px 0;
   margin-top: 10px;
   justify-content: space-around;
-  border-radius: 10px;
+
 }
 
 .feature__item {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  padding: 15px 20px 25px;
+  /* padding: 15px 20px 25px; */
   background-color: var(--background-color);
 }
 
