@@ -125,7 +125,7 @@
         <div class="feature__item block__1">
           <div class="feature__item__accent">
             <span> 01 </span>
-            <span> MODERN EQUIPMENT</span>
+            <span> MODERN <br> EQUIPMENT</span>
           </div>
           <p class="feature__text">
             I use exclusively updated and most modern equipment - everything for
@@ -211,20 +211,21 @@
         <p class="form__inner__subtitle">
           Fill out the form and we will contact you to make an appointment
         </p>
-        <form action="" method="post">
-          <div class="form">
-            <label for="name"></label>
-            <input class="input__name" type="text" name="name" id="name" maxlength="100" placeholder="Your name">
-            <br><br>
+
+        <form class="form" action="" method="post" id="customer_name">
 
 
-            <label for="phone_number"></label>
-            <br>
-            <input class="input__phone__number" type="phone" name="phone_number" id="phone_number"
-              placeholder="Phone number">
-          </div>
-          <button class="button__form__inner" type="submit" name="Sign_up">Sign up</button>
+          <input form="customer_name" class="input__name" type="text" name="name" id="name" maxlength="100"
+            placeholder="| Your name">
+          <label for="name">
+          </label>
+          <label for="phone_number"></label>
+          <input form="customer_name" class="input__phone__number" type="phone" name="phone_number" id="phone_number"
+            placeholder="Phone number">
+          <button form="customer_name" class="button__form__inner" type="submit" name="Sign_up">Sign up</button>
+
         </form>
+
       </div>
     </section>
     <section class="clients">
@@ -244,7 +245,7 @@
           </div>
 
           <div class="footer__info__row">
-            <div>
+            <div class="footer__nav">
               <ul class="footer__nav__list">
                 <li>
                   <a class="footer__nav__link link" href="#">Home </a>

@@ -16,12 +16,17 @@ sans-serif; */
   --text--footer-color: #0F2D4A;
 }
 
+
 @font-face {
-  font-family: "SofiaSans-Regular";
-  src: url(/src/fonts/SofiaSans-Regular.woff2) format(" woff2");
-  font-weight: regular;
-  font-style: notmal;
+  font-family: 'SofiaSans';
+
+  src: url('/src/fonts/SofiaSans.woff') format('woff'),
+    url('/src/fonts/SofiaSans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 
 html {
   font-family: "Roboto", sans-serif;
@@ -91,7 +96,7 @@ ul {
 }
 
 .logo__text {
-  font-family: "SofiaSans-Regular";
+  font-family: 'SofiaSans';
   font-style: regular;
 
   font-size: 17px;
@@ -104,16 +109,19 @@ ul {
   display: none;
 }
 
-/* .contact {
-  margin-top: 34px;
-  margin-left: 10px;
-} */
+.contact {
+  text-align: center;
+}
 
 .contact__number {
   font-size: 12px;
   line-height: 14px;
   color: var(--color-main);
 
+}
+
+.contact__number>img {
+  padding-right: 5px;
 }
 
 .header__lang {
@@ -251,7 +259,7 @@ ul {
 .features {
   /* width: 1150px; */
 
-  text-align: center;
+
   /* margin-left: calc(50% - 575px); */
   margin-top: 15px;
 }
@@ -261,12 +269,14 @@ ul {
   font-weight: 400;
   font-size: 20px;
   white-space: pre-line;
+  text-align: center;
 }
 
 .features__subtitle {
-  margin: 15px 0;
+  margin-top: 15px;
   font-size: 14px;
   white-space: pre-line;
+  text-align: center;
 }
 
 .feature__items {
@@ -359,7 +369,7 @@ ul {
 
 input[type=text] {
   padding: 12px 20px;
-  margin: 8px 0;
+
   border: none;
   background-color: rgba(217, 217, 217, 0.71);
   color: rgba(27, 29, 31, 0.51);
@@ -380,7 +390,7 @@ input[type=text] {
 
 input[type=phone] {
   padding: 12px 20px;
-  margin: 8px 0;
+
   border: none;
   background-color: rgba(217, 217, 217, 0.71);
   color: rgba(27, 29, 31, 0.51);
@@ -427,7 +437,7 @@ input[type=phone] {
   height: 128px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 8px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 
 }
 
@@ -452,12 +462,14 @@ input[type=phone] {
 /*left part*/
 .footer__info {
   color: var(--text--footer-color);
+  margin: 0;
 }
 
 .footer__logo {
   display: flex;
-  margin-top: 30px;
-  margin-left: 8px;
+
+  /* margin-top: 30px;
+  margin-left: 8px; */
   align-items: center;
 }
 
@@ -465,14 +477,16 @@ input[type=phone] {
   padding-right: 5px;
   width: 55px;
   height: 57px;
+  margin: 0;
 }
 
 .footer__logo__text {
-  font-family: "SofiaSans";
+  margin: 0;
+  font-family: 'SofiaSans';
   font-style: normal;
   font-weight: 400;
   font-size: 27px;
-  line-height: 1.4;
+  /* line-height: 1.4; */
 
   color: var(--text--footer-color);
 }
@@ -480,7 +494,7 @@ input[type=phone] {
 .footer__logo__text>span {
   font-weight: 400;
   font-size: 19px;
-  line-height: 1.4;
+  /* line-height: 1.4; */
 }
 
 .footer__info__row {
@@ -488,20 +502,20 @@ input[type=phone] {
 }
 
 .footer__nav__list {
-  margin-top: 21px;
-  margin-left: 10px;
+  /* margin-top: 21px; */
+  /* margin-left: 10px; */
 
   font-size: 14px;
   line-height: 1.35;
 }
 
-.footer__nav__list>li {
-  margin-bottom: 10px;
+.footer__nav__list>li:first-child {
+  margin-bottom: 20px;
 
 }
 
 .footer__nav__list>li:last-child {
-  margin-top: 20px;
+  margin-top: 27px;
 
 }
 
@@ -542,11 +556,10 @@ input[type=phone] {
 .footer__contacts {
   display: flex;
   flex-direction: column;
-  margin-right: 60px;
+  margin: 0;
   font-style: normal;
   font-size: 20px;
-  margin-top: 44px;
-  margin-left: 12px;
+
 }
 
 address>p {
@@ -594,11 +607,12 @@ address>span {
 
 .social {
   display: none;
-  align-items: flex-start;
+  margin-top: 10px;
+
 }
 
 .social>a>img {
-  padding-right: 15px;
+  padding-right: 22px;
 }
 
 .copyright {
