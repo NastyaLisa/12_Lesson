@@ -18,8 +18,8 @@ sans-serif; */
 @font-face {
   font-family: "SofiaSans";
 
-  src: url("/src/fonts/SofiaSans.woff") format("woff"),
-    url("/src/fonts/SofiaSans.woff2") format("woff2");
+  src: url("../src/fonts/SofiaSans.woff") format("woff"),
+    url("../src/fonts/SofiaSans.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -354,7 +354,7 @@ input[type="text"] {
   border: none;
   background-color: rgba(217, 217, 217, 0.71);
   color: rgba(27, 29, 31, 0.51);
-  background-image: url(./img/form_inner/user_name.svg);
+  background-image: url(../src/img/form_inner/user_name.svg);
   background-position: 10px 10px;
   background-repeat: no-repeat;
 
@@ -373,7 +373,7 @@ input[type="phone"] {
   border: none;
   background-color: rgba(217, 217, 217, 0.71);
   color: rgba(27, 29, 31, 0.51);
-  background-image: url(./img/form_inner/phone.svg);
+  background-image: url(../src/img/form_inner/phone.svg);
   background-position: 10px 10px;
   background-repeat: no-repeat;
 
