@@ -5,7 +5,7 @@
 
   /* section class="hero" */
   .hero {
-    background-image: url("/src/img/main/background.png");
+    background-image: url("../src/img/main/background.png");
     position: relative;
     height: 663px;
     min-width: 1400px;
@@ -34,7 +34,7 @@
   .logo__text>span {
     font-size: 38px;
     line-height: 53px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   }
 
   .nav__list {
