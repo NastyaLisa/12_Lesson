@@ -444,20 +444,24 @@
   .lady {
     margin-top: 0;
     margin-left: 0;
+
   }
 
   .elipse {
     width: 310px;
     height: 510.48px;
     bottom: calc(100% - 663px);
-    right: calc(50% - 700px);
+    /* right: calc(50% - 700px); */
+    transform: translateX(22%);
   }
 
   .lady>img {
     width: 572px;
     height: 463px;
     bottom: calc(100% - 663px);
-    right: calc(50% - 700px);
+    right: 0;
+    /* right: calc(50% - 630px); */
+    transform: translateX(120%);
   }
 
   /* section class="benefit__items" */
@@ -471,8 +475,7 @@
     position: absolute;
     z-index: 3;
     bottom: calc(100% - 726px);
-
-    right: calc(50% - 700px);
+    transform: translateX(22%);
   }
 
   .benefit {
