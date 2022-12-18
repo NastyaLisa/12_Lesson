@@ -74,11 +74,17 @@
     padding: 16px;
   }
 
+  .lady {
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+  }
+
   .elipse {
     width: 136px;
     height: 230px;
 
-    bottom: calc(100% - 400px);
+    bottom: calc(100% - 34px);
     right: calc(50% - 318px);
 
   }
@@ -86,7 +92,7 @@
   .lady>img {
     width: 250px;
     height: 208px;
-    bottom: calc(100% - 398px);
+    bottom: calc(100% - 34px);
     right: calc(50% - 343px);
   }
 
