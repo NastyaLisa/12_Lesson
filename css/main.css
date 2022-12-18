@@ -95,7 +95,6 @@ ul {
   width: 33.39px;
   height: 34.67px;
   padding-right: 5px;
-  align-self: flex-start;
 }
 
 .logo__text {
@@ -242,14 +241,12 @@ ul {
 .benefit__text {
   font-size: 14px;
   line-height: 16px;
-
 }
 
 /*features*/
 .features {
   max-width: 480px;
   margin: 0 auto;
-
 }
 
 .features__title {
@@ -309,7 +306,6 @@ ul {
   font-size: 12px;
   text-align: left;
   margin: 5px 0 5px 0;
-
 }
 
 /* section class="form__inner"> */
@@ -317,7 +313,7 @@ ul {
   max-width: 400px;
   height: 265px;
   margin: 30px auto 0;
-  background: #ffffff;
+  background: var(--background-color);
   border: 1px solid #d9d9d9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -476,7 +472,6 @@ input::placeholder {
 .footer__logo__text>span {
   font-weight: 400;
   font-size: 19px;
-
 }
 
 .footer__info__row {
