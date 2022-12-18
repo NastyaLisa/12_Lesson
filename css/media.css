@@ -105,7 +105,7 @@
     margin: 30px auto 0;
   }
 
-  .features__title {
+  .title {
     white-space: unset;
 
     font-size: 25px;
@@ -476,7 +476,7 @@
     margin: 148px auto 0;
   }
 
-  .features__title {
+  .title {
     white-space: unset;
 
     font-size: 40px;

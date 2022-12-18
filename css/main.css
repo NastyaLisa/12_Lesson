@@ -249,14 +249,14 @@ ul {
   margin: 0 auto;
 }
 
-.features__title {
+.title {
   font-weight: 400;
   font-size: 20px;
   white-space: pre-line;
   text-align: center;
 }
 
-.features__title>span {
+.title>span {
   font-weight: 700;
 }
 
