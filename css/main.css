@@ -427,7 +427,7 @@ input::placeholder {
 
 /*Footer*/
 .footer {
-  min-width: 320px;
+  width: 100%;
   margin: 30px auto 0;
 
   background: linear-gradient(180deg, #a1c7d4 0%, #0680aa 100%);
@@ -437,9 +437,10 @@ input::placeholder {
 .footer__conteiner {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 320px;
+  /* justify-content: space-between;
+  width: 320px; */
   height: 568px;
+  align-items: center;
 }
 
 /*left part*/
